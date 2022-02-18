@@ -1,0 +1,98 @@
+/* {
+    margin:0;
+    padding:0;
+    border:0;
+    background:transparent;
+    outline:none;
+    text-decoration:none;
+    outline:none;
+    font-family:inherit;
+    box-sizing:border-box;
+  }
+  
+  ol, ul, li {
+    list-style:none;
+    display:block;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing:0;
+  }
+  
+  a, img {
+    border: none;
+  }
+  
+  button, a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button, input, textarea, select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    border-radius: 0;
+  }  
+  
+  */
+  body {
+    background-color: #F4F4FF;
+  }
+
+
+  #root {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  h1, #title {
+      margin: 20px;
+  }
+  
+  #imageOfToday {
+      width: 100%;
+  }
+  
+  #explanation {
+    letter-spacing: 0px;
+    line-height: 20px;
+  }
+
+  main{
+    margin: auto;
+    text-align: center;
+}
+
+
+#datepicker{
+  box-sizing: border-box;
+  width: 170px;
+  padding: 00.2rem;
+  border-radius: 0.5rem;
+}
+
+.imageDiv{
+    width: 80%;
+    margin: auto;
+}
+
+#imageOfTheDay{
+    width: 100%;
+}
+
+.videoDiv{
+    width: 80%;
+    margin: auto;
+}
+
+#videoOfTheDay{
+    width: 100%;
+    height: 70vh;
+}
